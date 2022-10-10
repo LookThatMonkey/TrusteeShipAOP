@@ -1,0 +1,12 @@
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\bin\Debug\TrusteeShipAOP.exe.config
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\bin\Debug\TrusteeShipAOP.exe
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\bin\Debug\TrusteeShipAOP.pdb
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\bin\Debug\TrusteeShipAOP.Core.X64.dll
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.csprojAssemblyReference.cache
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.Form1.resources
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.Properties.Resources.resources
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.csproj.GenerateResource.cache
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.csproj.CoreCompileInputs.cache
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.csproj.CopyComplete
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.exe
+D:\Code\TrusteeShipAOP发布的例子\TrusteeShipAOP\obj\Debug\TrusteeShipAOP.pdb

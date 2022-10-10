@@ -19,11 +19,24 @@ namespace TrusteeShipAOP
 
         [DemoPropertyAspect]
         public int aabbc { get; set; } = 0;
+
+        [DemoPropertyAspect]
+        public int aabbc2 { get; set; } = 0;
         protected int ia = 0;
         int ic = 11;
         int ib = 22;
         [DemoMethodAspect]
         public int Add(int i1, int i2)
+        {
+            s1 = 2;
+            ib = s1;
+            aa(0, 0);
+            aa2(0, 0);
+            aabbc = 1;
+            return i1 + i2;
+        }
+        [DemoMethodAspect]
+        public int Add2(int i1, int i2)
         {
             s1 = 2;
             ib = s1;
@@ -44,7 +57,7 @@ namespace TrusteeShipAOP
         }
     }
 
-    class DemoMethodAspectAttribute : AspectAttribute
+    class DemoMethodAspectAttribute : MPAspectAttribute
     {
         public override void OnEntry(object sender, AspectEventArgs args)
         {
@@ -59,7 +72,7 @@ namespace TrusteeShipAOP
         }
     }
 
-    class DemoPropertyAspectAttribute : AspectAttribute
+    class DemoPropertyAspectAttribute : MPAspectAttribute
     {
         public override void OnEntry(object sender, AspectEventArgs args)
         {
@@ -70,7 +83,7 @@ namespace TrusteeShipAOP
         public override void OnExit(object sender, AspectEventArgs args)
         {
             args.Name = "OnExit " + args.Name;
-            Form1.OnExit?.Invoke(sender, args);
+            Form1.OnEntry?.Invoke(sender, args);
         }
     }
 }

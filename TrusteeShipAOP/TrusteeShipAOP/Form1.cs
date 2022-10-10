@@ -60,5 +60,15 @@ namespace TrusteeShipAOP
         {
             listBox1.Items.Clear();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Class1.Add2(1, 1);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Class1.aabbc2++;
+        }
     }
 }
